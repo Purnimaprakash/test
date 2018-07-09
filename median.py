@@ -1,10 +1,10 @@
 import statistics
-array = list()
-num = input()
-for i in range(int(num)):
+a = list()
+nu = input()
+for i in range(int(nu)):
     n = input()
-    array.append(int(n))
-print (array)
-array.sort()
-print(array)
-print(statistics.median(array))
+    a.append(int(n))
+print (a)
+a.sort()
+print(a)
+print(statistics.median(a))
